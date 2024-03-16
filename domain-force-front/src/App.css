@@ -1,6 +1,9 @@
 body {
 	font-family: 'Kiwi Maru', serif;
-	margin-left: 20px;
+}
+
+main {
+	background-color: #FFFDF4;
 }
 
 footer {
@@ -95,6 +98,8 @@ p.heading .subtext {
 	justify-content: flex-start; 
 	list-style: none;
 	font-family: 'Kiwi Maru', serif;
+	margin-top: 0px;
+	padding-top: 20px;
 }
 
 .navbar li {

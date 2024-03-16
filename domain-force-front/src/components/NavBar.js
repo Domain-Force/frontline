@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 
 function NavBar() {
   return (
-	<nav>
 	  <ul className="navbar">
 		<li>
 			<NavLink activeClassName="active" exact to="/">home</NavLink>
@@ -15,7 +14,6 @@ function NavBar() {
 			<NavLink activeClassName="active" to="/about">about</NavLink>	
 		</li>
 	  </ul>
-	</nav>
   );
 }
 
