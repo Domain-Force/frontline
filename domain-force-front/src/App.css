@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Kiwi Maru', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+	background-color: #FFFDF4;
+	padding: 10px 20px 20px 20px;
+	display: flex;
+	justify-content: flex-start; 
+	list-style: none;
+	font-family: 'Kiwi Maru', serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar li {
+  margin: 0 10px; 
+  font-size: 1.5em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar a {
+  text-decoration: none; 
+  color: black; 
 }
 
-.App-link {
-  color: #61dafb;
+.navbar a.active {
+  color: #9AC4F8; 
+  text-decoration: underline; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.zero-to-production {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  background-color: #FFFDF4; 
+  color: #8AB801; 
+  font-size: 3em; 
+  font-family: 'Kiwi Maru', serif;
+
+}
+
+.light-mode {
+	background-color: #FFFDF4;
+	color: #000000;
 }
