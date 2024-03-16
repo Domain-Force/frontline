@@ -3,6 +3,34 @@ body {
 	margin-left: 20px;
 }
 
+footer {
+	background-color: #434343; 
+	color: #FEFEFE; 
+	font-family: 'Kiwi Maru', serif;
+	margin-top: 50px; 
+	padding: 20px; 
+}
+
+footer li {
+	list-style: none; 
+}
+
+footer a {
+	text-decoration: underline;
+	color: #FEFEFE;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-left, .footer-right {
+  display: flex;
+  font-size: 0.65em;
+}
+
 .cards-container {
   padding: 20px; 
 }
