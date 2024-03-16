@@ -6,7 +6,12 @@ function Home() {
 	<div className="cards-container">
 	  <p className="zero-to-production">zero to production</p>
 	  <body>
-		<p className="heading">courses</p>
+		<p className="heading">
+			courses
+			<span className="subtext">
+	  {"bet you won't learn this in school"}
+			</span>
+		</p>
 
 		{/* TODO: API call to Backend to get card props from DB */}
 		<div className="cards">
@@ -24,7 +29,12 @@ function Home() {
 	  			color="#9CD000"/>
 		</div>
 
-	  <p className="heading">articles</p>
+	  <p className="heading">
+		articles
+		<span className="subtext">
+		  {"make smart you, we will ~yoda"}
+		</span>
+	  </p>
 	  <div className="cards">
 		<Card
 			title="moby docker (docker)"
