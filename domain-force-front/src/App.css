@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
+body {
+	font-family: 'Kiwi Maru', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main {
+	background-color: #FFFDF4;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+footer {
+	background-color: #434343; 
+	color: #FEFEFE; 
+	font-family: 'Kiwi Maru', serif;
+	margin-top: 50px; 
+	padding: 20px; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+footer li {
+	list-style: none; 
+}
+
+footer a {
+	text-decoration: underline;
+	color: #FEFEFE;
+}
+
+.footer-content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-left, .footer-right {
+  display: flex;
+  font-size: 0.65em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.cards-container {
+  padding: 20px; 
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .card {
+    width: 90%; 
   }
+}
+
+.card {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+	border-radius: 20px; 
+	margin: 20px; 
+	padding: 20px; 
+	width: 350px; 
+	height: 250px;
+}
+
+.card-title {
+	margin: 0 0 10px 0; 
+	font-size: 1.75em;
+}
+
+.card-description {
+	margin: 0 0 20px 0;
+}
+
+.card-footer {
+	display: flex; 
+	flex-wrap: wrap; 
+}
+
+p.heading{
+	font-size: 3em; 
+	margin: 0; 
+	padding: 0; 
+}
+
+p.heading .subtext {
+	margin-left: 10px;
+	font-size: 0.35em; 
+	color: #777; 
+	font-style: italic; 
+}
+
+.navbar {
+	background-color: #FFFDF4;
+	margin-left: 50px;
+	display: flex;
+	justify-content: flex-start; 
+	list-style: none;
+	font-family: 'Kiwi Maru', serif;
+	margin-top: 0px;
+	padding-top: 20px;
+}
+
+.navbar li {
+  margin: 0 10px; 
+  font-size: 1.5em;
+}
+
+.navbar a {
+  text-decoration: none; 
+  color: black; 
+}
+
+.navbar a.active {
+  color: #9AC4F8; 
+  text-decoration: underline; 
+}
+
+.zero-to-production {
+  display: flex; 
+  position: relative;
+  justify-content: center; 
+  align-items: center; 
+  background-color: #FFFDF4; 
+  color: #8AB801; 
+  font-size: 3em; 
+  font-family: 'Kiwi Maru', serif;
+}
+
+.light-mode {
+	background-color: #FFFDF4;
+	color: #000000;
 }
