@@ -119,13 +119,13 @@ p.heading .subtext {
 
 .zero-to-production {
   display: flex; 
+  position: relative;
   justify-content: center; 
   align-items: center; 
   background-color: #FFFDF4; 
   color: #8AB801; 
   font-size: 3em; 
   font-family: 'Kiwi Maru', serif;
-
 }
 
 .light-mode {

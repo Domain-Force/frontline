@@ -4,7 +4,10 @@ import Card from './Card';
 function Home() {
   return (
 	<div className="cards-container">
-	  <p className="zero-to-production">zero to production</p>
+	{/* TODO: Recreate the image with HTML/JS/CSS */}
+	  <img src="/hookztp.png"
+		   alt="zero to production"
+		   style={{ width: '100%', minWidth: '40%', marginTop: '40px', marginBottom: '40px' }} />
 	  <body>
 		<p className="heading">
 			courses
