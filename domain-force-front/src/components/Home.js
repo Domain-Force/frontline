@@ -5,7 +5,7 @@ function Home() {
   return (
 	<div className="cards-container">
 	{/* TODO: Recreate the image with HTML/JS/CSS */}
-	  <img src="/hookztp.png"
+	  <img src="/hookztp.svg"
 		   alt="zero to production"
 		   style={{ width: '100%', minWidth: '40%', marginTop: '40px', marginBottom: '40px' }} />
 	  <body>
