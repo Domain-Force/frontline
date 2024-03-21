@@ -1,5 +1,7 @@
 import React from 'react';
 import ArticleItem from '../components/ArticleItem';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ArticleDocker from './articles/ArticleDocker';
 
 function Articles() {
 	return (
@@ -7,7 +9,7 @@ function Articles() {
 			<p className="heading">articles</p>
 			<br/>
 			<div className="article-item-grid">
-				<ArticleItem name="moby docker (docker)" color="#FF9C9C" />
+				<ArticleItem path="docker" name="moby docker (docker)" color="#FF9C9C" />
 				<ArticleItem name="django, not the movie" color="#A0C8F8" />
 				<ArticleItem name="learning methodology" color="#FFD29C" />
 				<ArticleItem name="css (pretty things wow)" color="#A2A0F8" />

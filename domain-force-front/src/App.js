@@ -7,6 +7,7 @@ import Courses from './pages/Courses';
 import Articles from './pages/Articles';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import ArticleDocker from './pages/articles/ArticleDocker';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
 				<Route path="/about" element={<About />}/>
 				<Route path="/courses" element={<Courses />}/>
 				<Route path="/articles" element={<Articles />}/>
+				<Route path="/articles/docker" element={<ArticleDocker />} />
 			</Routes>
 		</main>
 		<Footer/>
