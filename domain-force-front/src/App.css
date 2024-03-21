@@ -261,17 +261,37 @@ p.about {
   border-radius: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   z-index: 1001;
+  max-width: 80%;
   animation: fadeIn 0.3s ease-out forwards;
 }
 
 .modal-close-button {
-	background-color: #FF9C9C;
+	background-color: #C3C9D2;
+	font-size: 1.25em;
 	border: none;
-	border-radius: 10px;
+	border-radius: 15px;
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 	font-family: 'Kiwi Maru', serif;
 }
 
+.modal-heading {
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+}
+
+.modal-section {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+
+.modal-body {
+	font-size: 1em;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 
 .button-like-text {
   font-size: 1.25em; 

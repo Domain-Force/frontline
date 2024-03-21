@@ -24,12 +24,14 @@ function ArticleDocker(props) {
 		test disclaimer
 	  </p>
 		<ArticleModal isOpen={isModalOpen} onClose={closeModal}>
-			<p className="article-heading">docker container</p>
+			<div className="article-heading-background" style={{backgroundColor: "#A0C8F8"}}>
+				<p className="modal-heading">docker container</p>
+			</div>
 			<p>a <strong>docker container</strong>, or simply <strong>container</strong>, is an environment that docker makes to run software.</p>
 
-			<p className="article-section">analogy</p>
-			<p className="article-body">
-				
+			<p className="modal-section">analogy</p>
+			<p className="modal-body">
+				imagine you had an XBox, Playstation and a Nintendo switch. how cool it would be if you could use the same video game disc/cartridge across all three systems? that is what docker containers do but instead of game consoles, it is for Linux, Windows, and MacOS.
 			</p>
 		</ArticleModal>
 	
