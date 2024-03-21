@@ -1,7 +1,5 @@
 import React from 'react';
 import ArticleItem from '../components/ArticleItem';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import ArticleDocker from './articles/ArticleDocker';
 
 function Articles() {
 	return (

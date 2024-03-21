@@ -26,7 +26,7 @@ function App() {
 				<Route path="/about" element={<About />}/>
 				<Route path="/courses" element={<Courses />}/>
 				<Route path="/articles" element={<Articles />}/>
-				<Route path="/articles/docker" element={<ArticleDocker />} />
+				<Route path="/articles/docker" element={<ArticleDocker color="#FF9C9C"/>} />
 			</Routes>
 		</main>
 		<Footer/>
