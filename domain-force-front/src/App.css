@@ -38,7 +38,13 @@ footer a {
 }
 
 .cards-container {
-  padding: 20px; 
+	margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+  .cards-container {
+	  margin-left: 10px;
+  }
 }
 
 .cards {
@@ -49,6 +55,7 @@ footer a {
 
 @media (max-width: 768px) {
   .cards {
+	margin-left: -5px;
     flex-direction: column;
     align-items: center;
   }
@@ -85,6 +92,16 @@ p.heading{
 	font-size: 3em; 
 	margin: 0; 
 	padding: 0; 
+}
+
+@media (max-width: 768px) {
+  p.heading {
+	font-size: 3em; 
+	margin: 0; 
+	padding: 0; 
+	display: flex;
+	flex-wrap: wrap;
+  }
 }
 
 p.heading .subtext {
@@ -147,6 +164,18 @@ p.about {
 	font-family: 'Kiwi Maru', serif;
 	margin-top: 0px;
 	padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+	background-color: #FFFDF4;
+	margin-left: -25px;
+	display: flex;
+	justify-content: flex-start; 
+	list-style: none;
+	font-family: 'Kiwi Maru', serif;
+	margin-top: 0px;
+  }
 }
 
 .navbar li {
