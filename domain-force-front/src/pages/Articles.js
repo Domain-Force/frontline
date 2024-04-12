@@ -19,7 +19,7 @@ function Articles() {
 				<ArticleItem name="jira (not cumin seeds)" color="#96EBF6" />
 				<ArticleItem name="cloudflare (oooh clouds)" color="#C3C9D2" />
 				<ArticleItem name="figma (design cool things)" color="#4489F0" />
-				<ArticleItem name="domains (.com, .co, .org)" color="#A2A0F8" />
+				<ArticleItem path="domains" name="domains (.com, .co, .org)" color="#A2A0F8" />
 				<ArticleItem name="web hosting" color="#FF9C9C" />
 				<ArticleItem name="postgresql (post squeal)" color="#FCEE74" />
 				<ArticleItem name="python lists (aka arrays)" color="#9CD000" />
