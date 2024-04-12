@@ -338,3 +338,51 @@ p.about {
   background-color: #E3F0FF; 
   border-radius: 5px; 
 }
+
+/* CodeBlock.css */
+.code-block {
+  position: relative;
+  background-color: #5F5D5D; /* Light grey background */
+  border: 1px solid #ddd; /* Light grey border */
+  border-radius: 18px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.code-block pre {
+  white-space: pre-wrap; 
+  white-space: -moz-pre-wrap; 
+  white-space: -pre-wrap; 
+  white-space: -o-pre-wrap; 
+  word-wrap: break-word; 
+  overflow-x: auto;
+}
+
+.code-block code {
+  display: block; 
+  padding: 30px; 
+  background-color: #e8e8e8; 
+  border-radius: 10px; 
+}
+
+.code-block button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.copy-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border: none;
+  background-color: #4ED7CE; /* Bootstrap primary blue */
+  color: white;
+  border-radius: 6px;
+}
+
+.copy-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

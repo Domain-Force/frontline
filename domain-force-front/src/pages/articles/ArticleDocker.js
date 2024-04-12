@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import ArticleModal from '../../components/ArticleModal';
+import CodeBlock from '../../components/CodeBlock';
 
 function ArticleDocker(props) {
 	const { color } = props;
@@ -38,6 +39,11 @@ function ArticleDocker(props) {
 		</div>
 		<p className="article-body">
 			docker has two files that can dictate an environment's variables. the <strong>Dockerfile</strong> (yes it's specifically spelled with a capital 'D') and the <strong>docker-compose.yml</strong> file.
+		</p>
+		<p className="article-body">
+			<CodeBlock>
+				yourmom = ['Dockerfile', 'docker-compose.yml']
+			</CodeBlock>
 		</p>
 
 
