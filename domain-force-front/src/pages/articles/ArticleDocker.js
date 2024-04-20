@@ -42,7 +42,12 @@ function ArticleDocker(props) {
 		</p>
 		<p className="article-body">
 			<CodeBlock>
-				yourmom = ['Dockerfile', 'docker-compose.yml']
+{
+`your_mom = ['Dockerfile', 'docker-compose.yml']
+for thing in your_mom:
+    print(thing)
+`
+}
 			</CodeBlock>
 		</p>
 

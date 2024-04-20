@@ -17,9 +17,9 @@ function CodeBlock({ children }) {
 		}
 	};
 	return (
-	<div className='code-block'>
+	<div className='notebook-paper'>
       <pre ref={codeRef}>
-        <code>{children}</code>
+        <div>{children}</div>
       </pre>
       <button className='copy-button' onClick={copyToClipboard}>{buttonLabel}</button>
     </div>
