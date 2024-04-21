@@ -88,6 +88,22 @@ footer a {
 	flex-wrap: wrap; 
 }
 
+p.subheading{
+	font-size: 2em; 
+	margin: 0; 
+	padding: 0; 
+}
+
+@media (max-width: 768px) {
+  p.subheading {
+	font-size: 2em; 
+	margin: 0; 
+	padding: 0; 
+	display: flex;
+	flex-wrap: wrap;
+  }
+}
+
 p.heading{
 	font-size: 3em; 
 	margin: 0; 

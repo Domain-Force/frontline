@@ -4,14 +4,20 @@ import ArticleItem from '../components/ArticleItem';
 function Articles() {
 	return (
 		<div className="cards-container">
-			<p className="heading">articles</p>
+			<p className="heading">
+				articles
+				<span className="subtext">for noobs, by smarter noobs</span>
+			</p>
 			<br/>
 			<div className="article-item-grid">
 				<ArticleItem path="docker" name="moby docker (docker)" color="#FF9C9C" />
 				<ArticleItem path="domains" name="domains (.com, .co, .org)" color="#A2A0F8" />
 			</div>
 
-			<p className="heading">coming soon</p>
+			<p className="heading">
+				coming soon
+				<span className="subtext">to a theater near you</span>
+			</p>
 			<br/>
 			<div className="article-item-grid">
 				<ArticleItem name="web hosting" color="#FF9C9C" isComingSoon={true}/>
