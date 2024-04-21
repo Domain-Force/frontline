@@ -226,6 +226,61 @@ p.about {
 	font-size: 1.5em;
 	max-width: 350px;
 	max-height: 40px;
+	position: relative;
+	overflow: hidden;
+}
+
+.coming-soon-ribbon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    border-left: 80px solid transparent;
+    border-bottom: 80px solid #f00; /* Red color for the ribbon */
+    width: 0;
+    height: 0;
+    content: "";
+    display: block;
+    text-align: center;
+    transform: translate(65%, -50%) rotate(45deg); /* Adjust to tweak the position */
+}
+
+.coming-soon-text {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #fff;
+    font-size: 0.75em;
+    font-weight: bold;
+    transform: rotate(45deg);
+    transform-origin: right top;
+    z-index: 2;
+}
+
+.article-item.disabled {
+    pointer-events: none; /* Makes the link unclickable */
+    opacity: 0.5; /* Dim the link to indicate it's inactive */
+}
+
+.coming-soon-tooltip {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%; /* Adjust based on tooltip placement */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.article-item:hover .coming-soon-tooltip {
+    visibility: visible;
+    opacity: 1;
 }
 
 .article-heading {
