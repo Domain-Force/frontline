@@ -8,6 +8,15 @@ function Articles() {
 			<br/>
 			<div className="article-item-grid">
 				<ArticleItem path="docker" name="moby docker (docker)" color="#FF9C9C" />
+				<ArticleItem path="domains" name="domains (.com, .co, .org)" color="#A2A0F8" />
+			</div>
+
+			<p className="heading">coming soon</p>
+			<br/>
+			<div className="article-item-grid">
+				<ArticleItem name="web hosting" color="#FF9C9C" isComingSoon={true}/>
+				<ArticleItem name="postgresql (post squeal)" color="#FCEE74" isComingSoon={true}/>
+				<ArticleItem name="python lists (aka arrays)" color="#9CD000" isComingSoon={true}/>
 				<ArticleItem name="django, not the movie" color="#A0C8F8" isComingSoon={true}/>
 				<ArticleItem name="learning methodology" color="#FFD29C" isComingSoon={true}/>
 				<ArticleItem name="css (pretty things wow)" color="#A2A0F8" isComingSoon={true}/>
@@ -19,10 +28,6 @@ function Articles() {
 				<ArticleItem name="jira (not cumin seeds)" color="#96EBF6" isComingSoon={true}/>
 				<ArticleItem name="cloudflare (oooh clouds)" color="#C3C9D2" isComingSoon={true}/>
 				<ArticleItem name="figma (design cool things)" color="#4489F0" isComingSoon={true}/>
-				<ArticleItem path="domains" name="domains (.com, .co, .org)" color="#A2A0F8" />
-				<ArticleItem name="web hosting" color="#FF9C9C" isComingSoon={true}/>
-				<ArticleItem name="postgresql (post squeal)" color="#FCEE74" isComingSoon={true}/>
-				<ArticleItem name="python lists (aka arrays)" color="#9CD000" isComingSoon={true}/>
 			</div>
 		</div>
 	);

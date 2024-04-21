@@ -78,11 +78,13 @@ function ArticleDomain(props) {
 					<s>
 						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">https://godaddy.com/</a>
 					</s>
+					<b> (All my homies hate godaddy)</b>
 				</li>
 				<li>
 					<s>
-						<a href="https://domains.google.com">https://domains.google.com/</a>
+						<a href="https://domains.google.com">https://domains.google.com/</a> 
 					</s>
+					<b> (This is being dissolved and merged into Squarespace)</b>
 				</li>
 				<li>
 					<a href="https://cheapnames.com/">https://cheapnames.com/</a>
@@ -157,19 +159,20 @@ function ArticleDomain(props) {
 
 
 
-
-		{ currentModal === 'website' && (
+		{currentModal === 'website' && (
 		<ArticleModal isOpen={true} onClose={closeModal}>
 			<div className="article-heading-background" style={{backgroundColor: "#A0C8F8"}}>
-				<p className="modal-heading">docker container</p>
-			</div>
-			<p>a <strong>docker container</strong>, or simply <strong>container</strong>, is an environment that docker makes to run software.</p>
-
-			<div className="article-heading-background" style={{backgroundColor: "#9CF2C9"}}>
-				<p className="modal-section">analogy</p>
+				<p className="modal-heading">What is a Website?</p>
 			</div>
 			<p className="modal-body">
-				imagine you had an XBox, Playstation and a Nintendo switch. how cool it would be if you could use the same video game disc/cartridge across all three systems? that is what docker containers do but instead of game consoles, it is for Linux, Windows, and MacOS.
+				<strong>a website</strong> is like a digital book or magazine that you can read through your computer, phone, or tablet. just as you turn pages in a book, you can click links and buttons on a website to read more articles, see pictures, or watch videos.
+			</p>
+
+			<div className="article-heading-background" style={{backgroundColor: "#9CF2C9"}}>
+				<p className="modal-section">Analogy</p>
+			</div>
+			<p className="modal-body">
+				imagine walking into a big library full of books. each book represents a different website. when you choose one to read, opening it is like visiting a website. inside, you find chapters and pages, similar to how websites have different pages and sections you can explore. this library is accessible from anywhere in the world, at any time, as long as you have a computer and the internet.
 			</p>
 		</ArticleModal>
 		)}

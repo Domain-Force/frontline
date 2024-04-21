@@ -214,7 +214,7 @@ p.about {
 	align-content: flex-start;
 	flex-wrap: wrap;
 	gap: 20px;
-	min-height: 70vh;
+	min-height: 30vh;
 }
 
 .article-item {
