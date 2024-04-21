@@ -12,6 +12,7 @@ function Articles() {
 			<div className="article-item-grid">
 				<ArticleItem path="docker" name="moby docker (docker)" color="#FF9C9C" />
 				<ArticleItem path="domains" name="domains (.com, .co, .org)" color="#A2A0F8" />
+				<ArticleItem path="frontback" name="frontend & backend" color="#C1E7E3" />
 			</div>
 
 			<p className="heading">

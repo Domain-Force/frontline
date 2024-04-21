@@ -9,6 +9,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import ArticleDocker from './pages/articles/ArticleDocker';
 import ArticleDomain from './pages/articles/ArticleDomain';
+import ArticleFrontBack from './pages/articles/ArticleFrontBack';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
 				<Route path="/articles" element={<Articles />}/>
 				<Route path="/articles/docker" element={<ArticleDocker color="#FF9C9C"/>} />
 				<Route path="/articles/domains" element={<ArticleDomain color="#A2A0F8"/>} />
+				<Route path="/articles/frontback" element={<ArticleFrontBack color="#C1E7E3"/>} />
 			</Routes>
 		</main>
 		<Footer/>

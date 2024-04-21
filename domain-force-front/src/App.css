@@ -326,6 +326,13 @@ p.about {
 	padding: 10px;
 }
 
+.article-sub-section {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 10px;
+}
+
+
 .article-body {
 	font-size: 1.25em;
 	margin: 0;
