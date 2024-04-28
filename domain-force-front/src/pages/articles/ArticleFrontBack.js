@@ -104,6 +104,34 @@ function ArticleFrontBack(props) {
 			<p className="article-body">
 				so, while you won’t find any recipes for deploying these bad boys here, you’ve got the scoop on how they whip up a web experience that’s as delightful as a surprise dessert. bon appétit, web connoisseurs!
 			</p>
+
+		
+		{currentModal === 'frontend' && (
+		<ArticleModal isOpen={true} onClose={closeModal}>
+			<div className="article-heading-background" style={{backgroundColor: "#F4636C"}}>
+				<p className="modal-heading">frontend</p>
+			</div>
+			<p className="modal-body">
+				<b>the frontend</b> is the part of a website that users interact with. like this pop-up modal, or the web page that you're currently on! 
+			</p>
+		</ArticleModal>
+		)}
+
+
+		{ currentModal === 'backend' && (
+		<ArticleModal isOpen={true} onClose={closeModal}>
+			<div className="article-heading-background" style={{backgroundColor: "#639DF4"}}>
+			    <p className="modal-heading">backend</p>
+			</div>
+			<p>
+				<b>the backend</b> is the part of a website that users do NOT see or interact with. it's a different server (computer) handling your data, and it's where the website's logic and database are stored.
+			</p>
+		</ArticleModal>
+		)}
+
+
+
+
 		</div>
 	);
 }
