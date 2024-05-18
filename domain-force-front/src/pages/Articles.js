@@ -13,6 +13,7 @@ function Articles() {
 				<ArticleItem path="docker" name="moby docker (docker)" color="#FF9C9C" />
 				<ArticleItem path="domains" name="domains (.com, .co, .org)" color="#A2A0F8" />
 				<ArticleItem path="frontback" name="frontend & backend" color="#C1E7E3" />
+				<ArticleItem path="csharp" name="C# (octothorpe)" color="#F06D06"/>
 			</div>
 
 			<p className="heading">
