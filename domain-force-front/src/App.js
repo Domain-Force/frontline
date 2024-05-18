@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import ArticleDocker from './pages/articles/ArticleDocker';
 import ArticleDomain from './pages/articles/ArticleDomain';
 import ArticleFrontBack from './pages/articles/ArticleFrontBack';
+import ArticleCsharp from './pages/articles/ArticleCsharp';
 import ArticleRest from './pages/articles/ArticleRest';
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
 				<Route path="/articles/docker" element={<ArticleDocker color="#FF9C9C"/>} />
 				<Route path="/articles/domains" element={<ArticleDomain color="#A2A0F8"/>} />
 				<Route path="/articles/frontback" element={<ArticleFrontBack color="#C1E7E3"/>} />
+				<Route path="/articles/csharp" element={<ArticleCsharp color="#F06D06"/>} />
 				<Route path="/articles/rest" element={<ArticleRest color="#96EBF6"/>} />
 			</Routes>
 		</main>
