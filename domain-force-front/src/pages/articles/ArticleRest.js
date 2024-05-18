@@ -1,10 +1,8 @@
-import React, {useState} from 'react';
-import ArticleModal from '../../components/ArticleModal';
+import React from 'react';
 import CodeBlock from '../../components/CodeBlock';
 
 function ArticleRest(props){
     const { color } = props;
-    const [{currentModal}, setModalOpen] = useState({currentModal: null});
 
     return (
         <div className='cards-container'>
