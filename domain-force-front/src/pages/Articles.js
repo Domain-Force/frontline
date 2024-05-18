@@ -13,6 +13,7 @@ function Articles() {
 				<ArticleItem path="docker" name="moby docker (docker)" color="#FF9C9C" />
 				<ArticleItem path="domains" name="domains (.com, .co, .org)" color="#A2A0F8" />
 				<ArticleItem path="frontback" name="frontend & backend" color="#C1E7E3" />
+				<ArticleItem path="rest" name="REST (time to sleep)" color="#96EBF6"/>
 			</div>
 
 			<p className="heading">
@@ -30,7 +31,6 @@ function Articles() {
 				<ArticleItem name="html (hitmel)" color="#FFAAD3" isComingSoon={true}/>
 				<ArticleItem name="javascript (optional ';')" color="#9CD000" isComingSoon={true}/>
 				<ArticleItem name="react (js speedrun, any%)" color="#FCEE74" isComingSoon={true}/>
-				<ArticleItem name="REST (time to sleep)" color="#96EBF6" isComingSoon={true}/>
 				<ArticleItem name="SOAP (time to bathe)" color="#F2AF4A" isComingSoon={true}/>
 				<ArticleItem name="jira (not cumin seeds)" color="#96EBF6" isComingSoon={true}/>
 				<ArticleItem name="cloudflare (oooh clouds)" color="#C3C9D2" isComingSoon={true}/>
