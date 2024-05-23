@@ -15,6 +15,7 @@ function Articles() {
 				<ArticleItem path="frontback" name="frontend & backend" color="#C1E7E3" />
 				<ArticleItem path="csharp" name="C# (octothorpe)" color="#F06D06"/>
 				<ArticleItem path="rest" name="REST (time to sleep)" color="#96EBF6"/>
+				<ArticleItem path="git" name="git (your butt in here)" color="#77DD77"/>
 			</div>
 
 			<p className="heading">
