@@ -23,7 +23,7 @@ function Footer() {
           <NavLink to="/terms-of-service" end>Terms of Service</NavLink>
         </div>
         <div className="footer-right">
-			<p>{"powered by your friend Justin's faith in you"}</p>
+			<p>{"powered by your friend Resi's faith in you"}</p>
         </div>
 	</div>
 	</footer>
