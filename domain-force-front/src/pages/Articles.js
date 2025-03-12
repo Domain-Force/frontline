@@ -16,6 +16,7 @@ function Articles() {
 				<ArticleItem path="rest" name="REST (time to sleep)" color="#96EBF6"/>
 				<ArticleItem path="git" name="git (your butt in here)" color="#77DD77"/>
 				<ArticleItem path="odoo-compute" name="odoo compute (compooter)" color="#3486EB"/>
+				<ArticleItem path="odoo-basic-1" name="odoo basic fields (field fundies)" color="#e8eb34"/>
 			</div>
 
 			<p className="heading">
