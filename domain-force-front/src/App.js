@@ -13,6 +13,7 @@ import ArticleFrontBack from './pages/articles/ArticleFrontBack';
 import ArticleCsharp from './pages/articles/ArticleCsharp';
 import ArticleRest from './pages/articles/ArticleRest';
 import ArticleGit from './pages/articles/ArticleGit';
+import ArticleOdooComputeField from './pages/articles/ArticleOdooComputeField';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
 				<Route path="/articles/csharp" element={<ArticleCsharp color="#F06D06"/>} />
 				<Route path="/articles/rest" element={<ArticleRest color="#96EBF6"/>} />
 				<Route path="/articles/git" element={<ArticleGit color="#77DD77"/>} />
+				<Route path="/articles/odoo-compute" element={<ArticleOdooComputeField color="#3486EB"/>} />
 			</Routes>
 		</main>
 		<Footer/>

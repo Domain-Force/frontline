@@ -10,12 +10,12 @@ function Articles() {
 			</p>
 			<br/>
 			<div className="article-item-grid">
-				<ArticleItem path="docker" name="moby docker (docker)" color="#FF9C9C" />
 				<ArticleItem path="domains" name="domains (.com, .co, .org)" color="#A2A0F8" />
 				<ArticleItem path="frontback" name="frontend & backend" color="#C1E7E3" />
 				<ArticleItem path="csharp" name="C# (octothorpe)" color="#F06D06"/>
 				<ArticleItem path="rest" name="REST (time to sleep)" color="#96EBF6"/>
 				<ArticleItem path="git" name="git (your butt in here)" color="#77DD77"/>
+				<ArticleItem path="odoo-compute" name="odoo compute (compooter)" color="#3486EB"/>
 			</div>
 
 			<p className="heading">
@@ -24,6 +24,7 @@ function Articles() {
 			</p>
 			<br/>
 			<div className="article-item-grid">
+				<ArticleItem path="docker" name="moby docker (docker)" color="#FF9C9C" isComingSoon={true}/>
 				<ArticleItem name="web hosting" color="#FF9C9C" isComingSoon={true}/>
 				<ArticleItem name="postgresql (post squeal)" color="#FCEE74" isComingSoon={true}/>
 				<ArticleItem name="python lists (aka arrays)" color="#9CD000" isComingSoon={true}/>
